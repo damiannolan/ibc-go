@@ -37,6 +37,7 @@ var (
 )
 
 // AppModuleBasic defines the basic application module used by the ibc module.
+// v2
 type AppModuleBasic struct{}
 
 var _ module.AppModuleBasic = AppModuleBasic{}
