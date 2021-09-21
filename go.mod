@@ -1,6 +1,6 @@
 go 1.15
 
-module github.com/cosmos/ibc-go/v2
+module github.com/damiannolan/ibc-go
 
 replace github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 
@@ -8,6 +8,7 @@ require (
 	github.com/armon/go-metrics v0.3.9
 	github.com/confio/ics23/go v0.6.6
 	github.com/cosmos/cosmos-sdk v0.44.0
+	github.com/cosmos/ibc-go/v2 v2.0.0-20210920082151-2d3181bf3723
 	github.com/gogo/protobuf v1.3.3
 	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/mux v1.8.0
