@@ -8,7 +8,7 @@ import (
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
 )
 
-// TestSequencerUpgrade performs an ibc tendermint client upgrade where the validator set changes from size 4 to 1 in one block (greater than 1/3).
+// TestSequencerUpgrade performs an ibc tendermint client update where the validator set changes from size 4 to 1 in one block (greater than 1/3).
 // Example flow:
 // block 100 -> return ValidatorUpdates to comet (these validator updates are refectled as nextValsHash in h+1, and valsHash in h+2)
 // block 101 -> Header { valhash: (large valset) nextValsHash: updates }
